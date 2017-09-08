@@ -1,0 +1,172 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+\usepackage{hyperref}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\setlength{\headsep}{12pt}  % space between header and text
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+\rhead{ {\it T. McClintock}\\{\it p. \thepage} } % put text in header (right side)
+\cfoot{}                                     % the foot is empty
+\topmargin=-0.5in % start text higher on the page
+\usepackage[bottom=1.0in]{geometry}
+
+\begin{document}
+\thispagestyle{empty} % this page has no header  
+\name{THOMAS MCCLINTOCK\\[12pt]}% the \\[12pt] adds a blank line after name
+\address{{\bf Address} \\ 1308 E Spring Street \\
+	University of Arizona \\  Tucson, Arizona, USA  \\ (631) 418-5304}
+\address{{\bf On the web} \\\url{https://github.com/tmcclintock} \\
+  \href{mailto:tmcclintock@email.arizona.edu}{tmcclintock@email.arizona.edu}}
+
+\begin{resume}
+\section{\centerline{PERSONAL STATEMENT}}
+%\vspace{8pt}
+\vspace{-2pt}
+I am a PhD candidate at the University of Arizona Physics Department working with Professor Eduardo Rozo. I work on galaxy cluster mass calibration and cosmology, and cosmic emulators for the halo mass function and halo bias. I am a member of the Dark Energy Survey as well as the LSST-Dark Energy Science Collaboration. I have an MSc from the University of Edinburgh in High Performance Computing and a BA from Amherst College.
+
+\section{\centerline{PUBLICATIONS}} 
+\vspace{8pt}
+\begin{itemize}\itemsep -2pt
+\item McClintock T., et al., 2017, {\it Weak-lensing mass calibration of redMaPPer galaxy clusters in DES Y1 data}, MNRAS, in prep.
+\item McClintock T., et al., 2017, {\it Emulating the halo mass function}, ApJ, in prep.
+\item McClintock T., Hannah E., Lim K., 2017, {\it Bayesian analysis of frisbee flights}, Eur. J. Phys., in prep.
+\item Melchior P., Gruen D., McClintock T. et al., 2017, {\it Weak-lensing mass calibration of redMaPPer Clusters in Dark Energy Survey Science Verification Data}, MNRAS, 469, 4899
+\item Simet M., McClintock T. et al., 2017, {\it Weak lensing measurements of the mass--richness relation of SDSS redMaPPer clusters}, MNRAS, 466, 3103
+\item Melia F., McClintock T., 2015, {\it Supermassive black holes in the early universe}, RSPSA, 471, 449
+\item Melia F., McClintock T., 2015, {\it A test of cosmological models using high-z measurements of H(z)}, AJ, 150, 6
+\end{itemize}
+
+\section{\centerline{RECENT WORK}} 
+\vspace{8pt}
+\begin{itemize} \itemsep -2pt % reduce space between items
+\item {\bf DES Y1 Weak lensing mass calibration}: Determining the mass-richness relation for optically selected galaxy clusters. Performed the mass modeling, developed new software to accurately estimate the covariance of the data, performed statistical analysis on the results using Bayesian statistics and MCMC.
+\item {\bf DES SV Weak lensing mass calibration}: Performed the mass modeling and statistical inference of the results. Implemented new code to account for cluster miscentering.
+\item {\bf Bayesian analysis of frisbee flights}: Constrained physical parameters the govern the physics of frisbee flight mechanics, both in simulations and from video data. Co-advised an undergraduate thesis.
+\item {\bf PHYS 105: Introduction to scientific computing}: Designed and taught my own curriculum for the class that is still used today. Integrated Python and data visualization into the course.
+\item {\bf Core Cosmology Library developer}: Developed and tested code for CCL, the primary software for analysis to be used by LSST-DESC.
+\item {\bf Supermassive black holes in the early Universe}: Demonstrated that high redshift supermassive black holes can form via Eddington accretion in the $R_{\rm h} = ct$ Universe, even though this is impossible in $\Lambda$CDM.
+\item  {\bf A test of cosmological models using high-z measurements of H(z)}: Compared the ability of $\Lambda$CDM and the $R_{\rm h} = ct$ Universe to accomodate the distance-redshift relation given by cosmic chronometer data via model selection techniques.
+%\item  {\bf Modeling the Effectiveness of Tax and Benefits Policies}: A masters thesis in which I parallelized a program that models the effect of tax and benefit reforms on individuals' education, employment and savings choices. Completed under Professor David Henty.
+%\item  {\bf The Contribution from Low-Mass X-Ray Binaries to the Positron Annihilation in the Galactic Disk}: A senior thesis that calculated the pair production rate within the accretion disc of LMXBs. Completed under Professor Fulvio Melia. 
+\end{itemize}
+
+\section{\centerline{AWARDS \& HONORS}} 
+\vspace{-12pt}
+\begin{center}
+  Galileo Circle Scholarship \\
+  College of Science Graduate Student Award for Teaching \\
+  Outstanding Graduate Student Colloquium Presentation in Spring 2015
+\end{center}
+
+
+\section{\centerline{EDUCATION}} 
+\vspace{-1pt}
+{\bf University of Arizona}, Department of Physics \hfill Tucson, Arizona, USA\\
+\textit{Doctor of Philosophy}, Physics \hfill Sept. 2012 - Present\\
+{\bf University of Edinburgh}, Edinburgh Parallel Computing Centre \hfill Edinburgh, Scotland, UK\\
+\textit{Masters of Science}, High Performance Computing \hfill Sept. 2011 - July 2012\\
+{\bf Amherst College}, Amherst College \hfill Amherst, MA\\
+\textit{Bachelor of Arts cum laude}, Physics and Astronomy \hfill Sept. 2007 - May 2011 \\
+%Cumulative GPA: 3.7 \hspace{0.2in}Physics GPA: 3.5 \hspace{0.2in} Astronomy GPA: 3.7
+  
+%\vspace{0.1in} 
+\section{\centerline{RESEARCH EXPERIENCE}} 
+\vspace{-2pt}
+{\sl University of Arizona Department of Physics} \hfill Tucson, AZ\\
+Graduate Student \hfill Sept. 2012 - Present
+\begin{itemize} \itemsep -2pt % reduce space between items
+  \item Member of the DES collaboration. Contributed to the cluster calibration, cluster cosmology, trough analysis, MOF optimization, and combined probes covariance emulation projects. Advised by Eduardo Rozo. Primary collaborators are Peter Melchior, Daniel Gruen, and Erin Sheldon.
+  \item Member of LSST-DESC. Presented work on cluster calibration and contributed to the Core Cosmology Library. Advised by Eduardo Rozo. Primary collaborators are Elisa Chisari and Antonio Villareal.
+  \item Analyzed the physics of frisbee flights, both through simulations and video analysis. Used Bayesian statistics and MCMC to constrain physical models of flight parameters, and set limits on the resolution and frames-per-second needed to be able to set constraints from video. Co-advised with Kevin Lim the thesis of Elizabeth Hannah.
+  \item Worked on alternative cosmological models, specifically the $R_{\rm h}=ct$ Universe. Advised by Fulvio Melia.
+\end{itemize}
+
+{\sl University of Edinburgh Edinburgh Parallel Copmuting Centre} \hfill Edinburgh, Scotland, UK\\
+Graduate Student \hfill Sept. 2011 - Aug. 2012
+\begin{itemize} \itemsep -2pt % reduce space between items
+   \item  Developed a parallelized verson of a tax and benefits simulation program to determine optimal policies based on individuals' lifestyles.
+\end{itemize}
+
+{\sl Amherst College Physics Department} \hfill Amherst, MA\\
+Senior Thesis and Research Intern \hfill Sept. 2010 - Aug. 2011
+\begin{itemize} \itemsep -2pt
+  \item Calculated the positron production rate from low-mass x-ray binary star systems and compared it to 511 keV flux measurements in the galactic bulge.
+\end{itemize}
+
+{\sl Brookhaven National Laboratory} \hfill Brookhaven, NY\\
+Research Intern \hfill June 2010 - Aug. 2010; June 2009 - Aug. 2009
+\begin{itemize} \itemsep -2pt
+  \item SULI student scientist at the National Synchrotron Light Source under Dario Arena.
+  \item Developed control systems for ferromagnetic resonance experiments.
+  \item Designed and machined an electromagnet for the U4B beamline for use in x-ray magnetic circular dichroism experiments.
+\end{itemize} 
+
+\section{\centerline{TEACHING EXPERIENCE }}
+\vspace{-2pt}
+{\it University of Arizona Department of Physics} \hfill Tucson, AZ
+\begin{itemize} \itemsep -2pt
+  \item Co-advised an undergraduate thesis researching the physics of frisbee flights.
+  \item Designed and taught a new curriculum for the PHYS 105:Introduction to Scientific Computing that is still used today.
+  \item Teaching assistant for PHYS 182: Laboratory Electromagnetism and Optics.
+  \item Teaching assistant for PHYS 105:Introduction to Scientific Computing and PHYS 305: Computational Physics.
+  \item Grader for PHYS 321: Theoretical Mechanics.
+  \item Tutored college and high school students in mechanics, electromagnitism, optics, and statistical mechanics.
+\end{itemize}
+
+{\it Amherst College Department of Physics} \hfill Amherst, MA
+\begin{itemize}  \itemsep -2pt
+  \item Grader for statistical mechanics, and introduction to electromagnitism.
+  \item Resident councilor for three years. Worked two years in first-year dormitories and one year in upperclass housing. Assisted residents adjusting to college life and acted as a liaison between students, faculty, and staff.
+  \item Tutored high school AP Physics students.
+\end{itemize}
+
+\section{\centerline{OUTREACH \& LEADERSHIP}}
+\begin{itemize}\itemsep -2pt % reduce space between items
+  \item Cosmology journal club organizer. Assemble the weekly reading list and assign readings.
+  \item Secretary and Treasurer for the Women in Physics club. Served as judge for science fairs in local middle and high schools, attended outreach events in local schools and after-school clubs, and worked at the Physics booth at the Tucson Festival of Books.
+  \item College of Science representative to the Graduate and Professional Student Council. Primary achievement was procuring funds to restock department libraries.
+  \item Elected to the Graduate Student Council in the physics department. Coordinated `town hall' meetings between graduate students and department heads, arranged pizza lunches with colloquium speakers, organized weekly graduate student research presentations, and invited colloquium speakers voted on by graduate students.
+  \item Speaker and co-organizer for the celebration of the 30th anniversary of the Nobel Prize in Medicine given to Barbara McClintock.
+\end{itemize}
+
+%\section{\centerline{LEADERSHIP AND ACTIVITIES}} 
+%\vspace{15pt}
+%\begin{itemize}\itemsep -2pt % reduce space between items
+%\item Co-organized and spoke at the celebration for the 30th Anniversary of the 
+%  Nobel Prize in Medicine given to Barbara McClintock.
+%\item Amherst College and University of Arizona Ultimate Frisbee team captain.
+%\item Huntington Ultimate Summer League cofounder. Coached high school students 
+%  and developed the sport of ultimate frisbee on Long Island.
+%\item Clan Gordon Highlanders Marching Band drummer and bagpiper.
+%\item Amherst College Music Department stage crew member for musicals and plays.
+%\item Amherst Film Club crew member.
+ 
+%\vspace{0.2in}
+%\section{\centerline{INTERESTS}} 
+%\vspace{-5pt} 
+%\begin{center}
+%Ultimate frisbee, bagpiping, cooking and reading.
+%\end{center} 
+ 
+\end{resume} 
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
