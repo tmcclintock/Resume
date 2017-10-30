@@ -1,3 +1,6 @@
+# emacs backup files
+*~
+
 *.aux
 *.dvi
 *.log
